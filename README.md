@@ -1,7 +1,7 @@
-# 🛗 discord-waiting-room
+# 🛗 Discord Waiting Room
 
-> *"You should add elevator music to the loading screen when the API is down"*
-> — some guy on Twitter, probably a genius
+> *"could you add elevator music when it goes offline?"*
+> — some guy on twitter, probably a genius
 
 A BetterDiscord plugin that plays elevator music while Discord is offline or reconnecting.
 
@@ -11,7 +11,7 @@ Because if you're going to wait, you might as well wait **with class**.
 
 ## What it does
 
-Discord goes down → 🎵 *ba da da da daaaa* 🎵 + floor counter goes up
+Discord goes down → 🎵 *ba da da da daaaa* 🎵 
 
 Discord comes back → *ding* → silence. You pretend nothing happened.
 
@@ -32,17 +32,17 @@ This plugin fixes that.
 > Requires [BetterDiscord](https://betterdiscord.app) installed.
 
 1. Download `ElevatorMusic.plugin.js`
-2. Open Discord → Settings → Plugins → **Open Plugins Folder**
+2. Open Discord → BetterDiscord → Plugins → **Open Plugins Folder**
 3. Drop the file in
 4. Enable **ElevatorMusic**
-5. Wait for Discord to explode
+5. Wait for Discord to explode again xD (or your wifi...)
 
 ---
 
 ## Testing (because you can't wait for Discord to die again)
 
 Open Discord → `Ctrl+Shift+I` → Network tab → set to **Offline**
-
+If DevTools doesn't open: BetterDiscord → Settings → scroll down → Debug logs → enable **DevTools**
 You're welcome.
 
 ---
