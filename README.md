@@ -17,6 +17,8 @@ Discord comes back → *ding* → silence. You pretend nothing happened.
 
 That's it. That's the plugin.
 
+![preview](preview.png)
+
 ---
 
 ## Why does this exist
