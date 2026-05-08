@@ -3,7 +3,7 @@
 > *"You should add elevator music to the loading screen when the API is down"*
 > — some guy on Twitter, probably a genius
 
-A Vencord plugin that plays elevator music while Discord is offline or reconnecting.
+A BetterDiscord plugin that plays elevator music while Discord is offline or reconnecting.
 
 Because if you're going to wait, you might as well wait **with class**.
 
@@ -11,9 +11,9 @@ Because if you're going to wait, you might as well wait **with class**.
 
 ## What it does
 
-Discord goes down → 🎵 *ba da da da daaaa* 🎵
+Discord goes down → 🎵 *ba da da da daaaa* 🎵 + floor counter goes up
 
-Discord comes back → silence. You pretend nothing happened.
+Discord comes back → *ding* → silence. You pretend nothing happened.
 
 That's it. That's the plugin.
 
@@ -29,12 +29,12 @@ This plugin fixes that.
 
 ## Installation
 
-> Requires [Vencord](https://github.com/Vendicated/Vencord) installed in developer mode.
+> Requires [BetterDiscord](https://betterdiscord.app) installed.
 
-1. Clone this repo
-2. Copy `index.ts` to `Vencord/src/plugins/elevatorMusic/`
-3. Run `pnpm build` inside Vencord
-4. Enable **ElevatorMusic** in Vencord settings
+1. Download `ElevatorMusic.plugin.js`
+2. Open Discord → Settings → Plugins → **Open Plugins Folder**
+3. Drop the file in
+4. Enable **ElevatorMusic**
 5. Wait for Discord to explode
 
 ---
@@ -44,21 +44,6 @@ This plugin fixes that.
 Open Discord → `Ctrl+Shift+I` → Network tab → set to **Offline**
 
 You're welcome.
-
----
-
-## Audio
-
-The plugin fetches an MP3 from a URL you configure in `index.ts`.
-
-Recommended source: [this banger](https://www.youtube.com/watch?v=55TD9gnMt3Y)
-
-Download with yt-dlp:
-```bash
-yt-dlp -x --audio-format mp3 "https://www.youtube.com/watch?v=55TD9gnMt3Y"
-```
-
-Then host it somewhere (GitHub Releases works fine) and paste the URL in `ELEVATOR_MUSIC_URL`.
 
 ---
 
@@ -73,9 +58,10 @@ Technically yes. So does breathing near their servers apparently, given how ofte
 If Discord goes down again and you have ideas, PRs are open.
 
 Suggested features:
-- [ ] Fade in/out
-- [ ] Show estimated wait time (just make up a number)
-- [ ] "Floor: ???" UI overlay
+- [x] Fade in/out
+- [x] Floor counter UI overlay
+- [x] Ding sound when Discord comes back
+- [x] Volume control on the overlay
 - [ ] Different music genres based on how long the outage lasts
 
 ---
