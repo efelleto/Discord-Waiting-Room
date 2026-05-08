@@ -31,18 +31,21 @@ This plugin fixes that.
 
 > Requires [BetterDiscord](https://betterdiscord.app) installed.
 
-1. Download `ElevatorMusic.plugin.js`
-2. Open Discord → BetterDiscord → Plugins → **Open Plugins Folder**
-3. Drop the file in
-4. Enable **ElevatorMusic**
-5. Wait for Discord to explode again xD (or your wifi...)
+**[⬇ Click here to download the plugin](https://github.com/efelleto/Discord-Waiting-Room/releases/download/1.2.0/ElevatorMusic.plugin.js)**
+
+1. Open Discord → BetterDiscord → Plugins → **Open Plugins Folder**
+2. Drop the file in
+3. Enable **ElevatorMusic**
+4. Wait for Discord to explode again xD (or your wifi...)
 
 ---
 
 ## Testing (because you can't wait for Discord to die again)
 
 Open Discord → `Ctrl+Shift+I` → Network tab → set to **Offline**
-If DevTools doesn't open: BetterDiscord → Settings → scroll down → Debug logs → enable **DevTools**
+
+> If DevTools doesn't open: BetterDiscord → Settings → scroll down → Debug logs → enable **DevTools**
+
 You're welcome.
 
 ---
